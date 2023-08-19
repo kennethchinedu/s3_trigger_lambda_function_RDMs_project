@@ -12,8 +12,7 @@ db = os.environ.get('database')
 
 #Lamda function
 def lambda_handler(event, context):
-    # TODO implement
-    #print(event)
+    #Reading s3 file on upload
     bucket = event['Records'][0]['s3']['bucket']['name']
     csv_file = event['Records'][0]['s3']['object']['key']
     main_file = s3_client.get_object(Bucket=bucket, Key=csv_file)
