@@ -19,5 +19,4 @@ with lambda function in the middle of it all.
 4. Write The Right SQL Queries: Craft SQL queries to load the data from the S3 files into your Amazon RDS tables. 
 
 5. Keep Eye On Security: Use secret keys or environmental variables where it is necessary to keep things safe.
-6. 
-7. Automate the Process: Sometimes you may require your code to execute within a timeframe, that is where amazon event bridge comes in, or triggers when you want them to execute per action. 
+6. Automate the Process: Sometimes you may require your code to execute within a timeframe, that is where amazon event bridge comes in, or triggers when you want them to execute per action. 
